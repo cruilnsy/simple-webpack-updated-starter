@@ -1,11 +1,4 @@
-class Person {
-    constructor(name) {
-        this.name = name;
-    }
-    getName() {
-        return this.name;
-    }
-}
+import './style.css';
+import Script from './script';
 
-let p = new Person('Rui Cui');
-console.log(p.getName());
+Script();
